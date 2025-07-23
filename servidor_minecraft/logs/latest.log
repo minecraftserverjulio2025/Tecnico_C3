@@ -41,3 +41,20 @@
 [18:42:05] [Server thread/INFO]: [ZZRoyers: Set own game mode to Survival Mode]
 [18:46:55] [Server thread/INFO]: [ZZRoyers: Started tick profiling]
 [18:48:12] [Server thread/INFO]: [ZZRoyers: Stopped tick profiling after 77.30 second(s) and 1546 tick(s) (20.00 tick(s) per second)]
+[18:52:06] [Server thread/INFO]: [Not Secure] <ZZRoyers> exit
+[18:52:41] [Server thread/INFO]: [ZZRoyers: Reloading!]
+[18:52:42] [Server thread/INFO]: Loaded 1407 recipes
+[18:52:42] [Server thread/INFO]: Loaded 1520 advancements
+[18:52:53] [Server thread/INFO]: [ZZRoyers: Stopping the server]
+[18:52:53] [Server thread/INFO]: Stopping server
+[18:52:53] [Server thread/INFO]: Saving players
+[18:52:53] [Server thread/INFO]: ZZRoyers lost connection: Server closed
+[18:52:53] [Server thread/INFO]: ZZRoyers left the game
+[18:52:53] [Server thread/INFO]: Saving worlds
+[18:52:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:52:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[18:52:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[18:52:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:52:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:52:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:52:55] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
