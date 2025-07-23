@@ -27,3 +27,14 @@
 [18:21:21] [Server thread/INFO]: Server empty for 60 seconds, pausing
 [18:29:21] [Server thread/INFO]: ZZRoyers[/127.107.61.203:44709] logged in with entity id 7 at (7.5, 64.0, 0.5)
 [18:29:21] [Server thread/INFO]: ZZRoyers joined the game
+[18:30:58] [Server thread/INFO]: Made ZZRoyers a server operator
+[18:31:13] [Server thread/INFO]: [ZZRoyers: Set own game mode to Creative Mode]
+[18:37:31] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[18:37:31] [Server thread/INFO]: 	/tps<--[HERE]
+[18:37:36] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[18:37:36] [Server thread/INFO]: spark<--[HERE]
+[18:37:41] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[18:37:41] [Server thread/INFO]: spark<--[HERE]
+[18:37:49] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[18:37:49] [Server thread/INFO]: timings<--[HERE]
+[18:40:13] [Server thread/INFO]: Villager cuf['Villager'/2493, l='ServerLevel[world]', x=-217.72, y=80.56, z=100.37] died, message: 'Villager suffocated in a wall'
