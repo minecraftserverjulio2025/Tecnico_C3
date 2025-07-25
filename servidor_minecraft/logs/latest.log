@@ -1,243 +1,203 @@
-[04:08:51] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu124.04; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
-[04:08:51] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
-[04:08:51] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[04:08:56] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/SkinsRestorer.jar'...
-[04:08:56] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/UltimateTimber-4.1.0.jar'...
-[04:08:59] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/UltimateTimber-4.1.0.jar' in 3142ms.
-[04:09:00] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SkinsRestorer.jar' in 3805ms.
-[04:09:00] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
-[04:09:00] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
- - Geyser-Spigot (2.8.2-SNAPSHOT), SkinsRestorer (15.7.7), UltimateTimber (4.1.0), ViaBackwards (5.4.2), ViaVersion (5.4.2), floodgate (2.2.4-SNAPSHOT (b118-40d320a))
-[04:09:06] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[04:09:09] [ServerMain/INFO]: Loaded 1407 recipes
-[04:09:09] [ServerMain/INFO]: Loaded 1520 advancements
-[04:09:09] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[04:09:10] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 454.2ms
-[04:09:10] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[04:09:10] [Server thread/INFO]: Loading properties
-[04:09:10] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[04:09:10] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[04:09:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[04:09:10] [Server thread/INFO]: Using 4 threads for Netty based IO
-[04:09:11] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[04:09:11] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[04:09:11] [Server thread/INFO]: Default game type: SURVIVAL
-[04:09:11] [Server thread/INFO]: Generating keypair
-[04:09:11] [Server thread/INFO]: Starting Minecraft server on *:25565
-[04:09:11] [Server thread/INFO]: Using epoll channel type
-[04:09:12] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[04:09:12] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[04:09:12] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.2
-[04:09:12] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.2 is now loaded. Registering protocol transformers and injecting...
-[04:09:13] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[04:09:13] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[04:09:14] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[04:09:14] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[04:09:14] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[04:09:15] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[04:09:15] [Server thread/INFO]: [floodgate] Took 956ms to boot Floodgate
-[04:09:15] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.2
-[04:09:15] [Server thread/INFO]: [UltimateTimber] Loading server plugin UltimateTimber v4.1.0
-[04:09:15] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] libraries folder created!
-[04:09:15] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Downloading dependency com.zaxxer:HikariCP:4.0.3 from https://repo1.maven.org/maven2
-[04:09:15] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loading dependency for relocation plugins/SongodaCore/dependencies/v1/libraries/com/zaxxer/HikariCP/4.0.3/raw-HikariCP-4.0.3.jar
-[04:09:16] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Relocated dependency plugins/SongodaCore/dependencies/v1/libraries/com/zaxxer/HikariCP/4.0.3/raw-HikariCP-4.0.3.jar
-[04:09:16] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loading dependency com.zaxxer:HikariCP:4.0.3 from https://repo1.maven.org/maven2
-[04:09:16] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loaded dependency 'HikariCP-4.0.3' successfully.
-[04:09:16] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] ----------------------------
-[04:09:16] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Downloading dependency org.apache.commons:commons-text:1.12.0 from https://repo1.maven.org/maven2
-[04:09:16] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loading dependency for relocation plugins/SongodaCore/dependencies/v1/libraries/org/apache/commons/commons-text/1.12.0/raw-commons-text-1.12.0.jar
-[04:09:16] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Relocated dependency plugins/SongodaCore/dependencies/v1/libraries/org/apache/commons/commons-text/1.12.0/raw-commons-text-1.12.0.jar
-[04:09:16] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loading dependency org.apache.commons:commons-text:1.12.0 from https://repo1.maven.org/maven2
-[04:09:16] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loaded dependency 'commons-text-1.12.0' successfully.
-[04:09:16] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] ----------------------------
-[04:09:16] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Downloading dependency com.github.cryptomorin:XSeries:13.2.0 from https://repo1.maven.org/maven2
-[04:09:16] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loading dependency for relocation plugins/SongodaCore/dependencies/v1/libraries/com/github/cryptomorin/XSeries/13.2.0/raw-XSeries-13.2.0.jar
-[04:09:16] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Relocated dependency plugins/SongodaCore/dependencies/v1/libraries/com/github/cryptomorin/XSeries/13.2.0/raw-XSeries-13.2.0.jar
-[04:09:16] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loading dependency com.github.cryptomorin:XSeries:13.2.0 from https://repo1.maven.org/maven2
-[04:09:16] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loaded dependency 'XSeries-13.2.0' successfully.
-[04:09:16] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] ----------------------------
-[04:09:16] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Downloading dependency org.mariadb.jdbc:mariadb-java-client:3.2.0 from https://repo1.maven.org/maven2
-[04:09:16] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loading dependency for relocation plugins/SongodaCore/dependencies/v1/libraries/org/mariadb/jdbc/mariadb-java-client/3.2.0/raw-mariadb-java-client-3.2.0.jar
-[04:09:16] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Relocated dependency plugins/SongodaCore/dependencies/v1/libraries/org/mariadb/jdbc/mariadb-java-client/3.2.0/raw-mariadb-java-client-3.2.0.jar
-[04:09:16] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loading dependency org.mariadb.jdbc:mariadb-java-client:3.2.0 from https://repo1.maven.org/maven2
-[04:09:16] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loaded dependency 'mariadb-java-client-3.2.0' successfully.
-[04:09:16] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] ----------------------------
-[04:09:16] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Downloading dependency org.jooq:jooq:3.14.16 from https://repo1.maven.org/maven2
-[04:09:16] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loading dependency for relocation plugins/SongodaCore/dependencies/v1/libraries/org/jooq/jooq/3.14.16/raw-jooq-3.14.16.jar
-[04:09:18] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Relocated dependency plugins/SongodaCore/dependencies/v1/libraries/org/jooq/jooq/3.14.16/raw-jooq-3.14.16.jar
-[04:09:18] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loading dependency org.jooq:jooq:3.14.16 from https://repo1.maven.org/maven2
-[04:09:18] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loaded dependency 'jooq-3.14.16' successfully.
-[04:09:18] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] ----------------------------
-[04:09:18] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Downloading dependency org.apache.commons:commons-lang3:3.14.0 from https://repo1.maven.org/maven2
-[04:09:18] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loading dependency for relocation plugins/SongodaCore/dependencies/v1/libraries/org/apache/commons/commons-lang3/3.14.0/raw-commons-lang3-3.14.0.jar
-[04:09:18] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Relocated dependency plugins/SongodaCore/dependencies/v1/libraries/org/apache/commons/commons-lang3/3.14.0/raw-commons-lang3-3.14.0.jar
-[04:09:18] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loading dependency org.apache.commons:commons-lang3:3.14.0 from https://repo1.maven.org/maven2
-[04:09:18] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loaded dependency 'commons-lang3-3.14.0' successfully.
-[04:09:18] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] ----------------------------
-[04:09:18] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Downloading dependency org.slf4j:slf4j-api:2.0.11 from https://repo1.maven.org/maven2
-[04:09:18] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loading dependency org.slf4j:slf4j-api:2.0.11 from https://repo1.maven.org/maven2
-[04:09:18] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Dependency 'slf4j-api-2.0.11' does not exist in the libraries folder. Attempting to download...
-[04:09:18] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Dependency 'slf4j-api-2.0.11' successfully downloaded.
-[04:09:18] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loaded dependency 'slf4j-api-2.0.11' successfully.
-[04:09:18] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] ----------------------------
-[04:09:18] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Downloading dependency com.h2database:h2:1.4.200 from https://repo1.maven.org/maven2
-[04:09:18] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loading dependency for relocation plugins/SongodaCore/dependencies/v1/libraries/com/h2database/h2/1.4.200/raw-h2-1.4.200.jar
-[04:09:19] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Relocated dependency plugins/SongodaCore/dependencies/v1/libraries/com/h2database/h2/1.4.200/raw-h2-1.4.200.jar
-[04:09:19] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loading dependency com.h2database:h2:1.4.200 from https://repo1.maven.org/maven2
-[04:09:19] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loaded dependency 'h2-1.4.200' successfully.
-[04:09:19] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] ----------------------------
-[04:09:19] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Downloading dependency org.reactivestreams:reactive-streams:1.0.2 from https://repo1.maven.org/maven2
-[04:09:19] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loading dependency for relocation plugins/SongodaCore/dependencies/v1/libraries/org/reactivestreams/reactive-streams/1.0.2/raw-reactive-streams-1.0.2.jar
-[04:09:19] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Relocated dependency plugins/SongodaCore/dependencies/v1/libraries/org/reactivestreams/reactive-streams/1.0.2/raw-reactive-streams-1.0.2.jar
-[04:09:19] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loading dependency org.reactivestreams:reactive-streams:1.0.2 from https://repo1.maven.org/maven2
-[04:09:19] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] Loaded dependency 'reactive-streams-1.0.2' successfully.
-[04:09:19] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] ----------------------------
-[04:09:19] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.2-SNAPSHOT
-[04:09:19] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[04:09:19] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[04:09:19] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.7
-[04:09:19] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[04:09:19] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.7
-[04:09:20] [Server thread/ERROR]: [SkinsRestorer] Your Minecraft version (1.21.8) is not supported by this version of SkinsRestorer! Is there a newer version available? https://modrinth.com/plugin/skinsrestorer If not, join our Discord server!
-[04:09:20] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.8.
-[04:09:20] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
-[04:09:21] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[04:09:21] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04:09:21] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[04:09:21] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04:09:21] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[04:09:21] [Server thread/INFO]: Preparing level "world"
-[04:09:21] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
-[04:09:21] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
-[04:09:21] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[04:09:21] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |------------------|
-[04:09:21] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[04:09:21] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
-[04:09:21] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
-[04:09:21] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Version: 15.7.7
-[04:09:21] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Commit: 7eff058
-[04:09:21] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     This is the latest version!
-[04:09:21] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
-[04:09:21] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[04:09:21] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[04:09:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[04:09:22] [Server thread/INFO]: Preparing spawn area: 0%
-[04:09:22] [Server thread/INFO]: Preparing spawn area: 0%
-[04:09:22] [Server thread/INFO]: Preparing spawn area: 24%
-[04:09:23] [Server thread/INFO]: Time elapsed: 1427 ms
-[04:09:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[04:09:23] [Server thread/INFO]: Preparing spawn area: 0%
-[04:09:23] [Server thread/INFO]: Preparing spawn area: 30%
-[04:09:23] [Server thread/INFO]: Time elapsed: 540 ms
-[04:09:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[04:09:23] [Server thread/INFO]: Preparing spawn area: 0%
-[04:09:23] [Server thread/INFO]: Time elapsed: 194 ms
-[04:09:23] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.2
-[04:09:23] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.7-1.21.8 (772)
-[04:09:23] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[04:09:24] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.2
-[04:09:24] [Server thread/INFO]: [UltimateTimber] Enabling UltimateTimber v4.1.0
-[04:09:24] [Server thread/INFO]:  
-[04:09:24] [Server thread/INFO]: =============================
-[04:09:24] [Server thread/INFO]: UltimateTimber 4.1.0 by Songoda <3!
-[04:09:24] [Server thread/INFO]: Action: Enabling...
-[04:09:24] [Server thread/INFO]: [UltimateTimber] Loaded locale "en_US"
-[04:09:24] [Server thread/WARN]: java.lang.RuntimeException: Cannot detect NMS version for server version: 1.21.8
-[04:09:24] [Server thread/WARN]: 	at UltimateTimber-4.1.0.jar//com.songoda.ultimatetimber.core.compatibility.ServerVersion.<clinit>(ServerVersion.java:101)
-[04:09:24] [Server thread/WARN]: 	at UltimateTimber-4.1.0.jar//com.songoda.ultimatetimber.core.commands.CommandManager.registerCommandDynamically(CommandManager.java:364)
-[04:09:24] [Server thread/WARN]: 	at UltimateTimber-4.1.0.jar//com.songoda.ultimatetimber.core.commands.CommandManager.lambda$registerCommandDynamically$3(CommandManager.java:106)
-[04:09:24] [Server thread/WARN]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-[04:09:24] [Server thread/WARN]: 	at java.base/java.util.Collections$UnmodifiableCollection.forEach(Collections.java:1116)
-[04:09:24] [Server thread/WARN]: 	at UltimateTimber-4.1.0.jar//com.songoda.ultimatetimber.core.commands.CommandManager.registerCommandDynamically(CommandManager.java:105)
-[04:09:24] [Server thread/WARN]: 	at UltimateTimber-4.1.0.jar//com.songoda.ultimatetimber.core.SongodaCore.init(SongodaCore.java:178)
-[04:09:24] [Server thread/WARN]: 	at UltimateTimber-4.1.0.jar//com.songoda.ultimatetimber.core.SongodaCore.registerPlugin(SongodaCore.java:159)
-[04:09:24] [Server thread/WARN]: 	at UltimateTimber-4.1.0.jar//com.songoda.ultimatetimber.core.SongodaCore.registerPlugin(SongodaCore.java:72)
-[04:09:24] [Server thread/WARN]: 	at UltimateTimber-4.1.0.jar//com.songoda.ultimatetimber.UltimateTimber.onPluginEnable(UltimateTimber.java:60)
-[04:09:24] [Server thread/WARN]: 	at UltimateTimber-4.1.0.jar//com.songoda.ultimatetimber.core.SongodaPlugin.onEnable(SongodaPlugin.java:146)
-[04:09:24] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280)
-[04:09:24] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
-[04:09:24] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
-[04:09:24] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
-[04:09:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:651)
-[04:09:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:607)
-[04:09:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:743)
-[04:09:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488)
-[04:09:24] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:280)
-[04:09:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164)
-[04:09:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
-[04:09:24] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[04:09:24] [Server thread/INFO]: [com.songoda.ultimatetimber.core.CoreLogger] [UltimateTimber] [SongodaCore] [SongodaCore] Hooked UltimateTimber.
-[04:09:24] [Server thread/WARN]: [NBTAPI] [NBTAPI] This Server-Version(1.21.8-R0.1-SNAPSHOT) is not supported by this NBT-API Version(2.14.2-SNAPSHOT) located in UltimateTimber. The NBT-API will try to work as good as it can! Some functions may not work!
-[04:09:24] [Server thread/WARN]: [NBTAPI] [NBTAPI] Unable to find the method 'g' in 'Entity' Args: [class net.minecraft.nbt.CompoundTag] Enum: NMS_ENTITY_SET_NBT
-[04:09:24] [Server thread/WARN]: [NBTAPI] [NBTAPI] Unable to find the method 'f' in 'Entity' Args: [class net.minecraft.nbt.CompoundTag] Enum: NMS_ENTITY_GET_NBT
-[04:09:24] [Server thread/WARN]: [NBTAPI] [NBTAPI] Unable to find the method 'Unmappedsave(net.minecraft.core.HolderLookup$Provider)' in 'ItemStack' Args: [interface net.minecraft.core.HolderLookup$Provider] Enum: NMSITEM_SAVE_MODERN
-[04:09:24] [Server thread/WARN]: [NBTAPI] [NBTAPI] Unable to find the method 'Unmappedparse(net.minecraft.core.HolderLookup$Provider,net.minecraft.nbt.Tag)' in 'ItemStack' Args: [interface net.minecraft.core.HolderLookup$Provider, interface net.minecraft.nbt.Tag] Enum: NMSITEM_LOAD_MODERN
-[04:09:24] [Server thread/WARN]: [NBTAPI] [NBTAPI] Unable to find the method 'UnmappedsaveWithId(net.minecraft.core.HolderLookup$Provider)' in 'BlockEntity' Args: [interface net.minecraft.core.HolderLookup$Provider] Enum: TILEENTITY_GET_NBT_1205
-[04:09:24] [Server thread/WARN]: [NBTAPI] [NBTAPI] Unable to find the method 'UnmappedloadWithComponents(net.minecraft.nbt.CompoundTag,net.minecraft.core.HolderLookup$Provider)' in 'BlockEntity' Args: [class net.minecraft.nbt.CompoundTag, interface net.minecraft.core.HolderLookup$Provider] Enum: TILEENTITY_SET_NBT_1205
-[04:09:24] [Server thread/ERROR]: Unexpected error while loading UltimateTimber v4.1.0 (core v3.9.1-SNAPSHOT): Disabling plugin!
-java.lang.ExceptionInInitializerError: null
-	at UltimateTimber-4.1.0.jar/com.songoda.ultimatetimber.core.third_party.de.tr7zw.nbtapi.NBTCompound.setBoolean(NBTCompound.java:517) ~[UltimateTimber-4.1.0.jar:?]
-	at UltimateTimber-4.1.0.jar/com.songoda.ultimatetimber.manager.TreeDefinitionManager.loadAxe(TreeDefinitionManager.java:264) ~[UltimateTimber-4.1.0.jar:?]
-	at UltimateTimber-4.1.0.jar/com.songoda.ultimatetimber.manager.TreeDefinitionManager.reload(TreeDefinitionManager.java:199) ~[UltimateTimber-4.1.0.jar:?]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at UltimateTimber-4.1.0.jar/com.songoda.ultimatetimber.UltimateTimber.onConfigReload(UltimateTimber.java:100) ~[UltimateTimber-4.1.0.jar:?]
-	at UltimateTimber-4.1.0.jar/com.songoda.ultimatetimber.core.SongodaPlugin.reloadConfig(SongodaPlugin.java:85) ~[UltimateTimber-4.1.0.jar:?]
-	at UltimateTimber-4.1.0.jar/com.songoda.ultimatetimber.UltimateTimber.onPluginEnable(UltimateTimber.java:84) ~[UltimateTimber-4.1.0.jar:?]
-	at UltimateTimber-4.1.0.jar/com.songoda.ultimatetimber.core.SongodaPlugin.onEnable(SongodaPlugin.java:146) ~[UltimateTimber-4.1.0.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:651) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:607) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:743) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:280) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.NullPointerException: Cannot invoke "Object.hashCode()" because "pk" is null
-	at java.base/java.util.ImmutableCollections$MapN.probe(ImmutableCollections.java:1328) ~[?:?]
-	at java.base/java.util.ImmutableCollections$MapN.get(ImmutableCollections.java:1242) ~[?:?]
-	at java.base/java.util.ImmutableCollections$AbstractImmutableMap.getOrDefault(ImmutableCollections.java:1097) ~[?:?]
-	at io.papermc.paper.pluginremap.reflect.PaperReflection.mapDeclaredFieldName(PaperReflection.java:79) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at io.papermc.reflectionrewriter.runtime.AbstractDefaultRulesReflectionProxy.getDeclaredField(AbstractDefaultRulesReflectionProxy.java:90) ~[reflection-rewriter-runtime-0.0.3.jar:?]
-	at io.papermc.paper.pluginremap.reflect.PaperReflectionHolder.getDeclaredField(Unknown Source) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at UltimateTimber-4.1.0.jar/com.songoda.ultimatetimber.core.third_party.de.tr7zw.nbtapi.NBTReflectionUtil.<clinit>(NBTReflectionUtil.java:60) ~[UltimateTimber-4.1.0.jar:?]
-	... 20 more
-[04:09:24] [Server thread/INFO]: [UltimateTimber] Disabling UltimateTimber v4.1.0
-[04:09:24] [Server thread/INFO]: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[04:09:24] [Server thread/INFO]:  
-[04:09:24] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.2-SNAPSHOT
-[04:09:25] [Server thread/INFO]: [spark] Starting background profiler...
-[04:09:25] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[04:09:25] [Server thread/INFO]: [Geyser-Spigot] 
-[04:09:25] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.2-b888 (git-master-7a15450)
-[04:09:25] [Server thread/INFO]: [Geyser-Spigot] 
-[04:09:25] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[04:09:29] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 2797
-[04:09:29] [Server thread/INFO]: [Geyser-Spigot] Done (3.947s)! Run /geyser help for help!
-[04:09:30] [Server thread/INFO]: Done preparing level "world" (8.910s)
-[04:09:30] [Server thread/INFO]: Running delayed init tasks
-[04:09:30] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[04:09:30] [Server thread/INFO]: Done (40.012s)! For help, type "help"
-[04:10:29] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[04:10:30] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username ZZRoyers
-[04:10:30] [localSession-7-2/INFO]: [Geyser-Spigot] ZZRoyers (logged in as: ZZRoyers) has connected to the Java server
-[04:10:30] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [SkinsRestorer]
-[04:10:31] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ZZRoyers joined (UUID: 00000000-0000-0000-0009-01f74c13fc16)
-[04:10:31] [Server thread/INFO]: .ZZRoyers joined the game
-[04:10:31] [Server thread/INFO]: .ZZRoyers[/127.107.61.203:0] logged in with entity id 32 at ([world]-251.64108, 72.0, -345.35583)
-[04:12:32] [Server thread/INFO]: Made .ZZRoyers a server operator
-[04:13:00] [Server thread/INFO]: Set .ZZRoyers's game mode to Creative Mode
-[04:13:51] [Server thread/INFO]: Set .ZZRoyers's game mode to Survival Mode
-[04:14:22] [Server thread/INFO]: Set .ZZRoyers's game mode to Creative Mode
-[04:14:54] [Server thread/INFO]: Set .ZZRoyers's game mode to Survival Mode
-[04:16:55] [User Authenticator #0/INFO]: UUID of player ZZRoyers is 4bf3004f-d627-3e2f-8609-50b14636206c
-[04:16:55] [Server thread/INFO]: ZZRoyers joined the game
-[04:16:55] [Server thread/INFO]: ZZRoyers[/127.107.61.203:53143] logged in with entity id 1116 at ([world]-254.58906590976991, 72.0, -346.19565309493333)
-[04:17:17] [Server thread/INFO]: Made ZZRoyers a server operator
-[04:17:54] [Server thread/INFO]: ZZRoyers issued server command: /tp ZZroyers .ZZRoyers
-[04:17:54] [Server thread/INFO]: [ZZRoyers: Teleported ZZRoyers to .ZZRoyers]
-[04:18:25] [Server thread/INFO]: Set ZZRoyers's game mode to Survival Mode
+[04:52:27] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu124.04; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[04:52:27] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
+[04:52:27] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[04:52:27] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
+[04:52:27] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+ - Geyser-Spigot (2.8.2-SNAPSHOT), SkinsRestorer (15.7.7), SmoothTimber (1.27.5), ViaBackwards (5.4.2), ViaVersion (5.4.2), floodgate (2.2.4-SNAPSHOT (b118-40d320a))
+[04:52:32] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[04:52:32] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[04:52:32] [ServerMain/INFO]: Found new data pack paper, loading it automatically
+[04:52:33] [ServerMain/INFO]: No existing world data, creating new world
+[04:52:34] [ServerMain/INFO]: Loaded 1407 recipes
+[04:52:34] [ServerMain/INFO]: Loaded 1520 advancements
+[04:52:34] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[04:52:35] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 482.8ms
+[04:52:35] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[04:52:35] [Server thread/INFO]: Loading properties
+[04:52:35] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[04:52:35] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[04:52:35] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:52:35] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:52:36] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[04:52:36] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[04:52:36] [Server thread/INFO]: Default game type: SURVIVAL
+[04:52:36] [Server thread/INFO]: Generating keypair
+[04:52:36] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:52:36] [Server thread/INFO]: Using epoll channel type
+[04:52:36] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[04:52:36] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[04:52:37] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.2
+[04:52:37] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.2 is now loaded. Registering protocol transformers and injecting...
+[04:52:37] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[04:52:38] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[04:52:38] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[04:52:38] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[04:52:39] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[04:52:39] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[04:52:39] [Server thread/INFO]: [floodgate] Took 667ms to boot Floodgate
+[04:52:39] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.2
+[04:52:39] [Server thread/INFO]: [SmoothTimber] Loading server plugin SmoothTimber v1.27.5
+[04:52:39] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.2-SNAPSHOT
+[04:52:40] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[04:52:40] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[04:52:40] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.7
+[04:52:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[04:52:40] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.7
+[04:52:40] [Server thread/ERROR]: [SkinsRestorer] Your Minecraft version (1.21.8) is not supported by this version of SkinsRestorer! Is there a newer version available? https://modrinth.com/plugin/skinsrestorer If not, join our Discord server!
+[04:52:40] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.8.
+[04:52:41] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[04:52:41] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[04:52:41] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:52:41] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:52:41] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:52:41] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:52:41] [Server thread/INFO]: Preparing level "world"
+[04:52:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:52:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[04:52:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[04:52:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[04:52:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[04:52:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[04:52:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:52:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.7
+[04:52:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7eff058
+[04:52:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[04:52:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:52:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[04:52:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[04:52:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:52:52] [Server thread/INFO]: Preparing spawn area: 2%
+[04:52:53] [Server thread/INFO]: Preparing spawn area: 2%
+[04:52:53] [Server thread/INFO]: Preparing spawn area: 2%
+[04:52:54] [Server thread/INFO]: Preparing spawn area: 2%
+[04:52:54] [Server thread/INFO]: Preparing spawn area: 4%
+[04:52:55] [Server thread/INFO]: Preparing spawn area: 18%
+[04:52:55] [Server thread/INFO]: Preparing spawn area: 18%
+[04:52:56] [Server thread/INFO]: Preparing spawn area: 18%
+[04:52:56] [Server thread/INFO]: Preparing spawn area: 24%
+[04:52:57] [Server thread/INFO]: Preparing spawn area: 48%
+[04:52:57] [Server thread/INFO]: Preparing spawn area: 51%
+[04:52:58] [Server thread/INFO]: Preparing spawn area: 57%
+[04:52:58] [Server thread/INFO]: Preparing spawn area: 61%
+[04:52:59] [Server thread/INFO]: Preparing spawn area: 63%
+[04:52:59] [Server thread/INFO]: Time elapsed: 6591 ms
+[04:52:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[04:52:59] [Server thread/INFO]: Preparing spawn area: 2%
+[04:52:59] [Server thread/INFO]: Preparing spawn area: 4%
+[04:53:00] [Server thread/INFO]: Preparing spawn area: 18%
+[04:53:00] [Server thread/INFO]: Preparing spawn area: 51%
+[04:53:01] [Server thread/INFO]: Time elapsed: 1924 ms
+[04:53:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[04:53:01] [Server thread/INFO]: Preparing spawn area: 2%
+[04:53:01] [Server thread/INFO]: Preparing spawn area: 51%
+[04:53:01] [Server thread/INFO]: Time elapsed: 572 ms
+[04:53:01] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.2
+[04:53:01] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.7-1.21.8 (772)
+[04:53:01] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[04:53:02] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.2
+[04:53:02] [Server thread/INFO]: [SmoothTimber] Enabling SmoothTimber v1.27.5
+[04:53:02] [Server thread/INFO]: SmoothTimber || You're currently using the untested Minecraft Version 1.21.8 (Core v1_21x)
+[04:53:02] [Server thread/INFO]: SmoothTimber || Please note that this core only officially supports 1.21.3, 1.21.4, 1.21.5, so problems may occur.
+[04:53:02] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.2-SNAPSHOT
+[04:53:02] [Server thread/INFO]: [spark] Starting background profiler...
+[04:53:02] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[04:53:02] [Server thread/INFO]: [Geyser-Spigot] 
+[04:53:02] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.2-b888 (git-master-7a15450)
+[04:53:02] [Server thread/INFO]: [Geyser-Spigot] 
+[04:53:02] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[04:53:06] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 2797
+[04:53:06] [Server thread/INFO]: [Geyser-Spigot] Done (3.369s)! Run /geyser help for help!
+[04:53:06] [Server thread/INFO]: Done preparing level "world" (24.871s)
+[04:53:06] [Server thread/INFO]: Running delayed init tasks
+[04:53:06] [Server thread/INFO]: Done (39.852s)! For help, type "help"
+[04:53:06] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[04:53:25] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username ZZRoyers
+[04:53:25] [localSession-7-2/INFO]: [Geyser-Spigot] ZZRoyers (logged in as: ZZRoyers) has connected to the Java server
+[04:53:26] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [SkinsRestorer]
+[04:53:26] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ZZRoyers joined (UUID: 00000000-0000-0000-0009-01f74c13fc16)
+[04:53:26] [Server thread/INFO]: .ZZRoyers joined the game
+[04:53:26] [Server thread/INFO]: .ZZRoyers[/127.107.61.203:0] logged in with entity id 35 at ([world]-7.5, 135.0, -1.5)
+[04:53:51] [Server thread/INFO]: Set .ZZRoyers's game mode to Creative Mode
+[05:01:17] [User Authenticator #0/INFO]: UUID of player ZZRoyers is 4bf3004f-d627-3e2f-8609-50b14636206c
+[05:01:18] [Server thread/INFO]: ZZRoyers joined the game
+[05:01:18] [Server thread/INFO]: ZZRoyers[/127.107.61.203:39897] logged in with entity id 954 at ([world]3.5, 134.0, 8.5)
+[05:02:31] [Server thread/INFO]: .ZZRoyers issued server command: /gamemode survival .ZZRoyers
+[05:06:53] [Server thread/INFO]: Set .ZZRoyers's game mode to Survival Mode
+[05:06:59] [Server thread/WARN]: .ZZRoyers was kicked for floating too long!
+[05:06:59] [Server thread/INFO]: .ZZRoyers lost connection: Flying is not enabled on this server
+[05:06:59] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .ZZRoyers disconnected
+[05:06:59] [localSession-7-2/INFO]: [Geyser-Spigot] ZZRoyers has disconnected from the Java server because of Flying is not enabled on this server
+[05:06:59] [Server thread/INFO]: .ZZRoyers left the game
+[05:09:01] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username ZZRoyers
+[05:09:01] [localSession-7-3/INFO]: [Geyser-Spigot] ZZRoyers (logged in as: ZZRoyers) has connected to the Java server
+[05:09:01] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ZZRoyers joined (UUID: 00000000-0000-0000-0009-01f74c13fc16)
+[05:09:01] [Server thread/INFO]: .ZZRoyers joined the game
+[05:09:01] [Server thread/INFO]: .ZZRoyers[/127.107.61.203:0] logged in with entity id 1248 at ([world]24.430964, 181.34600621610065, -136.63107)
+[05:09:09] [Server thread/WARN]: .ZZRoyers was kicked for floating too long!
+[05:09:09] [Server thread/INFO]: .ZZRoyers lost connection: Flying is not enabled on this server
+[05:09:09] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .ZZRoyers disconnected
+[05:09:09] [localSession-7-3/INFO]: [Geyser-Spigot] ZZRoyers has disconnected from the Java server because of Flying is not enabled on this server
+[05:09:09] [Server thread/INFO]: .ZZRoyers left the game
+[05:09:29] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username DylanTag24
+[05:09:29] [localSession-7-4/INFO]: [Geyser-Spigot] DylanTag24 (logged in as: DylanTag24) has connected to the Java server
+[05:09:29] [User Authenticator #1/INFO]: UUID of player DylanTag24 is bd13f4d4-57b4-33f9-8a4a-d7b962eacb62
+[05:09:29] [Server thread/INFO]: DylanTag24 joined the game
+[05:09:29] [Server thread/INFO]: DylanTag24[/127.54.112.20:0] logged in with entity id 1267 at ([world]0.5, 132.0, 2.5)
+[05:10:07] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] DylanTag24 has disconnected from the Java server because of Bedrock client disconnected
+[05:10:07] [Server thread/INFO]: DylanTag24 lost connection: Disconnected
+[05:10:07] [Server thread/INFO]: DylanTag24 left the game
+[05:10:09] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username ZZRoyers
+[05:10:09] [localSession-7-1/INFO]: [Geyser-Spigot] ZZRoyers (logged in as: ZZRoyers) has connected to the Java server
+[05:10:09] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ZZRoyers joined (UUID: 00000000-0000-0000-0009-01f74c13fc16)
+[05:10:09] [Server thread/INFO]: .ZZRoyers joined the game
+[05:10:09] [Server thread/INFO]: .ZZRoyers[/127.107.61.203:0] logged in with entity id 1283 at ([world]24.430964, 177.5937148944793, -136.63107)
+[05:10:16] [Server thread/WARN]: .ZZRoyers was kicked for floating too long!
+[05:10:16] [Server thread/INFO]: .ZZRoyers lost connection: Flying is not enabled on this server
+[05:10:16] [localSession-7-1/INFO]: [Geyser-Spigot] ZZRoyers has disconnected from the Java server because of Flying is not enabled on this server
+[05:10:16] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .ZZRoyers disconnected
+[05:10:16] [Server thread/INFO]: .ZZRoyers left the game
+[05:10:56] [Server thread/INFO]: Stopping the server
+[05:10:56] [Server thread/INFO]: Stopping server
+[05:10:56] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.7
+[05:10:56] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.8.2-SNAPSHOT
+[05:10:56] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[05:10:57] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[05:10:57] [Server thread/INFO]: [SmoothTimber] Disabling SmoothTimber v1.27.5
+[05:10:57] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.4.2
+[05:10:57] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[05:10:57] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.4.2
+[05:10:57] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[05:10:57] [Server thread/INFO]: Saving players
+[05:10:57] [Server thread/INFO]: ZZRoyers lost connection: Server closed
+[05:10:57] [Server thread/INFO]: ZZRoyers left the game
+[05:10:57] [WebSocketConnectReadThread-99/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[05:10:57] [Server thread/INFO]: Saving worlds
+[05:10:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05:10:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[05:10:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[05:10:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[05:10:58] [Server thread/INFO]: [ChunkHolderManager] Saved 874 block chunks, 140 entity chunks, 4 poi chunks in world 'world' in 0.90s
+[05:10:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[05:10:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[05:10:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[05:10:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[05:10:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[05:10:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[05:10:58] [Server thread/INFO]: [ChunkHolderManager] Saved 795 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.35s
+[05:10:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[05:10:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[05:10:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[05:10:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[05:10:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[05:10:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[05:10:58] [Server thread/INFO]: [ChunkHolderManager] Saved 792 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.32s
+[05:10:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[05:10:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[05:10:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:10:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:10:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:10:58] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[05:10:58] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[05:10:58] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[05:10:58] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[05:10:58] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
