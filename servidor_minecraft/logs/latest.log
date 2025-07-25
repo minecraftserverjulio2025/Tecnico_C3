@@ -120,3 +120,18 @@
 [16:00:47] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .ZZRoyers disconnected
 [16:00:47] [Server thread/INFO]: .ZZRoyers left the game
 [16:01:47] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[16:03:48] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username ZZRoyers
+[16:03:48] [localSession-7-4/INFO]: [Geyser-Spigot] ZZRoyers (logged in as: ZZRoyers) has connected to the Java server
+[16:03:48] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ZZRoyers joined (UUID: 00000000-0000-0000-0009-01f74c13fc16)
+[16:03:48] [Server thread/INFO]: .ZZRoyers joined the game
+[16:03:48] [Server thread/INFO]: .ZZRoyers[/127.107.61.203:0] logged in with entity id 476 at ([world]-48.787777, 120.0, 17.564114)
+[16:04:55] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] ZZRoyers has disconnected from the Java server because of Bedrock client disconnected
+[16:04:55] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as .ZZRoyers disconnected
+[16:04:55] [Server thread/INFO]: .ZZRoyers lost connection: Disconnected
+[16:04:55] [Server thread/INFO]: .ZZRoyers left the game
+[16:05:55] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[16:10:37] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username ZZRoyers
+[16:10:37] [localSession-7-1/INFO]: [Geyser-Spigot] ZZRoyers (logged in as: ZZRoyers) has connected to the Java server
+[16:10:38] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ZZRoyers joined (UUID: 00000000-0000-0000-0009-01f74c13fc16)
+[16:10:38] [Server thread/INFO]: .ZZRoyers joined the game
+[16:10:38] [Server thread/INFO]: .ZZRoyers[/127.107.61.203:0] logged in with entity id 596 at ([world]44.117096, 133.0, 7.107518)
