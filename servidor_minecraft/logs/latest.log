@@ -247,3 +247,8 @@
 [17:23:50] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .ZZRoyers disconnected
 [17:23:50] [Server thread/INFO]: .ZZRoyers lost connection: Disconnected
 [17:23:50] [Server thread/INFO]: .ZZRoyers left the game
+[17:24:34] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username ZZRoyers
+[17:24:34] [localSession-7-2/INFO]: [Geyser-Spigot] ZZRoyers (logged in as: ZZRoyers) has connected to the Java server
+[17:24:34] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ZZRoyers joined (UUID: 00000000-0000-0000-0009-01f74c13fc16)
+[17:24:34] [Server thread/INFO]: .ZZRoyers joined the game
+[17:24:34] [Server thread/INFO]: .ZZRoyers[/127.107.61.203:0] logged in with entity id 4026 at ([world]0.71733046, 96.0, -80.92893)
