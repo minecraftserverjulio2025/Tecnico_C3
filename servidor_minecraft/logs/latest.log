@@ -204,3 +204,20 @@
 [16:43:29] [Server thread/INFO]: [floodgate] Floodgate player logged in as .DylanTag24 joined (UUID: 00000000-0000-0000-0009-01fbd97259ec)
 [16:43:29] [Server thread/INFO]: .DylanTag24 joined the game
 [16:43:29] [Server thread/INFO]: .DylanTag24[/127.54.112.20:0] logged in with entity id 1713 at ([world]36.03139, 134.0, 10.691648)
+[16:44:07] [Async Chat Thread - #4/INFO]: [Not Secure] <.DylanTag24> ya
+[16:44:59] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] ZZRoyers has disconnected from the Java server because of Bedrock client disconnected
+[16:44:59] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .ZZRoyers disconnected
+[16:44:59] [Server thread/INFO]: .ZZRoyers lost connection: Disconnected
+[16:44:59] [Server thread/INFO]: .ZZRoyers left the game
+[16:45:04] [Async Chat Thread - #4/INFO]: [Not Secure] <.DylanTag24> amos a buscar aldea
+[16:45:15] [Server thread/INFO]: No player was found
+[16:45:28] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .DylanTag24 disconnected
+[16:45:28] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] DylanTag24 has disconnected from the Java server because of Bedrock client disconnected
+[16:45:28] [Server thread/INFO]: .DylanTag24 lost connection: Disconnected
+[16:45:28] [Server thread/INFO]: .DylanTag24 left the game
+[16:45:48] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username ZZRoyers
+[16:45:48] [localSession-7-3/INFO]: [Geyser-Spigot] ZZRoyers (logged in as: ZZRoyers) has connected to the Java server
+[16:45:49] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ZZRoyers joined (UUID: 00000000-0000-0000-0009-01f74c13fc16)
+[16:45:49] [Server thread/INFO]: .ZZRoyers joined the game
+[16:45:49] [Server thread/INFO]: .ZZRoyers[/127.107.61.203:0] logged in with entity id 1790 at ([world]64.49242, 129.0, 15.748767)
+[16:46:20] [Server thread/INFO]: Set the time to 0
