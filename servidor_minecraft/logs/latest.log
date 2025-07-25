@@ -252,3 +252,5 @@
 [17:24:34] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ZZRoyers joined (UUID: 00000000-0000-0000-0009-01f74c13fc16)
 [17:24:34] [Server thread/INFO]: .ZZRoyers joined the game
 [17:24:34] [Server thread/INFO]: .ZZRoyers[/127.107.61.203:0] logged in with entity id 4026 at ([world]0.71733046, 96.0, -80.92893)
+[18:23:46] [User Authenticator #1/INFO]: UUID of player ZZRoyers is 4bf3004f-d627-3e2f-8609-50b14636206c
+[18:23:46] [Server thread/INFO]: com.mojang.authlib.GameProfile@6241a689[id=4bf3004f-d627-3e2f-8609-50b14636206c,name=ZZRoyers,properties={}] lost connection: Disconnected
