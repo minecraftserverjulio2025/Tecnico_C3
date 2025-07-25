@@ -145,3 +145,23 @@
 [16:18:12] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ZZRoyers joined (UUID: 00000000-0000-0000-0009-01f74c13fc16)
 [16:18:12] [Server thread/INFO]: .ZZRoyers joined the game
 [16:18:12] [Server thread/INFO]: .ZZRoyers[/127.107.61.203:0] logged in with entity id 842 at ([world]43.347725, 134.0, 4.088199)
+[16:28:54] [Server thread/INFO]: .ZZRoyers fell from a high place
+[16:29:39] [Server thread/INFO]: .ZZRoyers issued server command: /skin
+[16:29:53] [Server thread/INFO]: .ZZRoyers issued server command: /skin random
+[16:31:07] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username DylanTag24
+[16:31:07] [localSession-7-3/INFO]: [Geyser-Spigot] DylanTag24 (logged in as: DylanTag24) has connected to the Java server
+[16:31:07] [Server thread/INFO]: [floodgate] Floodgate player logged in as .DylanTag24 joined (UUID: 00000000-0000-0000-0009-01fbd97259ec)
+[16:31:07] [Server thread/INFO]: .DylanTag24 joined the game
+[16:31:07] [Server thread/INFO]: .DylanTag24[/127.54.112.20:0] logged in with entity id 1306 at ([world]8.5, 134.0, 5.5)
+[16:31:39] [Async Chat Thread - #0/INFO]: [Not Secure] <.ZZRoyers> activele los visual vibrants
+[16:31:50] [Server thread/INFO]: .DylanTag24 issued server command: /SKIN RANDOM
+[16:32:05] [Async Chat Thread - #0/INFO]: [Not Secure] <.ZZRoyers> y bajele el brillo a los visual vibrants a un 25%
+[16:32:37] [Async Chat Thread - #0/INFO]: [Not Secure] <.DylanTag24> nah yo tengo unos
+[16:32:58] [Async Chat Thread - #0/INFO]: [Not Secure] <.ZZRoyers> oe
+[16:33:06] [Async Chat Thread - #0/INFO]: [Not Secure] <.ZZRoyers> tonces pere
+[16:33:06] [Async Chat Thread - #0/INFO]: [Not Secure] <.DylanTag24> ??
+[16:33:10] [Async Chat Thread - #0/INFO]: [Not Secure] <.ZZRoyers> pille
+[16:33:13] [Async Chat Thread - #0/INFO]: [Not Secure] <.ZZRoyers> preparado
+[16:33:22] [Async Chat Thread - #0/INFO]: [Not Secure] <.DylanTag24> veo
+[16:33:29] [Server thread/INFO]: Set the time to 0
+[16:33:41] [Async Chat Thread - #0/INFO]: [Not Secure] <.ZZRoyers> que tal
