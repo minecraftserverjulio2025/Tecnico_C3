@@ -1,306 +1,130 @@
-[15:53:45] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu124.04; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
-[15:53:45] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
-[15:53:45] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[15:53:49] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
-[15:53:49] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
- - DHSupport (0.10.0), Geyser-Spigot (2.8.2-SNAPSHOT), SkinsRestorer (15.7.7), SmoothTimber (1.27.5), ViaBackwards (5.4.2), ViaVersion (5.4.2), floodgate (2.2.4-SNAPSHOT (b118-40d320a))
-[15:53:54] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:53:56] [ServerMain/INFO]: Loaded 1407 recipes
-[15:53:56] [ServerMain/INFO]: Loaded 1520 advancements
-[15:53:56] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[15:53:56] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 420.3ms
-[15:53:56] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[15:53:56] [Server thread/INFO]: Loading properties
-[15:53:57] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[15:53:57] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[15:53:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:53:57] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:53:59] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[15:53:59] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[15:53:59] [Server thread/INFO]: Default game type: SURVIVAL
-[15:53:59] [Server thread/INFO]: Generating keypair
-[15:53:59] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:54:00] [Server thread/INFO]: Using epoll channel type
-[15:54:00] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[15:54:00] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[15:54:00] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.2
-[15:54:00] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.2 is now loaded. Registering protocol transformers and injecting...
-[15:54:01] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[15:54:01] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[15:54:02] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[15:54:02] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[15:54:02] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[15:54:03] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[15:54:03] [Server thread/INFO]: [floodgate] Took 1,069ms to boot Floodgate
-[15:54:03] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.2
-[15:54:03] [Server thread/INFO]: [SmoothTimber] Loading server plugin SmoothTimber v1.27.5
-[15:54:03] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.2-SNAPSHOT
-[15:54:04] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[15:54:04] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[15:54:04] [Server thread/INFO]: [DHS] Loading server plugin DHSupport v0.10.0
-[15:54:04] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.7
-[15:54:04] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:54:04] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.7
-[15:54:05] [Server thread/ERROR]: [SkinsRestorer] Your Minecraft version (1.21.8) is not supported by this version of SkinsRestorer! Is there a newer version available? https://modrinth.com/plugin/skinsrestorer If not, join our Discord server!
-[15:54:05] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.8.
-[15:54:05] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
-[15:54:06] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[15:54:06] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:54:06] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:54:06] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:54:06] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:54:06] [Server thread/INFO]: Preparing level "world"
-[15:54:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:54:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[15:54:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[15:54:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[15:54:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[15:54:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[15:54:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:54:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.7
-[15:54:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7eff058
-[15:54:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[15:54:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:54:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[15:54:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[15:54:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:54:07] [Server thread/INFO]: Preparing spawn area: 0%
-[15:54:07] [Server thread/INFO]: Preparing spawn area: 0%
-[15:54:08] [Server thread/INFO]: Preparing spawn area: 0%
-[15:54:08] [Server thread/INFO]: Preparing spawn area: 0%
-[15:54:08] [Server thread/INFO]: Time elapsed: 1522 ms
-[15:54:08] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:54:08] [Server thread/INFO]: Preparing spawn area: 0%
-[15:54:08] [Server thread/INFO]: Time elapsed: 395 ms
-[15:54:08] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:54:08] [Server thread/INFO]: Preparing spawn area: 0%
-[15:54:08] [Server thread/INFO]: Time elapsed: 228 ms
-[15:54:08] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.2
-[15:54:08] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.7-1.21.8 (772)
-[15:54:08] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[15:54:09] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.2
-[15:54:09] [Server thread/INFO]: [SmoothTimber] Enabling SmoothTimber v1.27.5
-[15:54:09] [Server thread/INFO]: SmoothTimber || You're currently using the untested Minecraft Version 1.21.8 (Core v1_21x)
-[15:54:09] [Server thread/INFO]: SmoothTimber || Please note that this core only officially supports 1.21.3, 1.21.4, 1.21.5, so problems may occur.
-[15:54:09] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.2-SNAPSHOT
-[15:54:09] [Server thread/INFO]: [DHS] Enabling DHSupport v0.10.0
-[15:54:09] [Server thread/INFO]: [DHS] I am DHS 0.10.0 for MC 1.21.7.
-[15:54:09] [Server thread/INFO]: [DHS] Using Paper scheduler.
-[15:54:09] [Server thread/WARN]: [DHS] Chunk generation is enabled. New chunks will be generated as needed to complete LOD generation. This could significantly increase the size of your world.
-[15:54:09] [Server thread/WARN]: [DHS] If you understand what this means and would like to disable this warning, set generate_new_chunks_warning to false in your config.
-[15:54:09] [Server thread/INFO]: [DHS] Ready!
-[15:54:10] [Server thread/INFO]: [spark] Starting background profiler...
-[15:54:11] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[15:54:11] [Server thread/INFO]: [Geyser-Spigot] 
-[15:54:11] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.2-b888 (git-master-7a15450)
-[15:54:11] [Server thread/INFO]: [Geyser-Spigot] 
-[15:54:11] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[15:54:15] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 2797
-[15:54:15] [Server thread/INFO]: [Geyser-Spigot] Done (4.07s)! Run /geyser help for help!
-[15:54:15] [Server thread/INFO]: Done preparing level "world" (9.366s)
-[15:54:15] [Server thread/INFO]: Running delayed init tasks
-[15:54:15] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[15:54:15] [Server thread/INFO]: Done (31.428s)! For help, type "help"
-[15:54:38] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username ZZRoyers
-[15:54:38] [localSession-7-2/INFO]: [Geyser-Spigot] ZZRoyers (logged in as: ZZRoyers) has connected to the Java server
-[15:54:39] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [SkinsRestorer]
-[15:54:39] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ZZRoyers joined (UUID: 00000000-0000-0000-0009-01f74c13fc16)
-[15:54:39] [Server thread/INFO]: .ZZRoyers joined the game
-[15:54:39] [Server thread/INFO]: .ZZRoyers[/127.107.61.203:0] logged in with entity id 23 at ([world]-8.5, 135.0, -5.5)
-[15:57:33] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username ZZRoyers
-[15:57:33] [localSession-7-3/INFO]: [Geyser-Spigot] ZZRoyers (logged in as: ZZRoyers) has connected to the Java server
-[15:57:33] [Server thread/INFO]: .ZZRoyers lost connection: You logged in from another location
-[15:57:33] [localSession-7-2/INFO]: [Geyser-Spigot] ZZRoyers has disconnected from the Java server because of You logged in from another location
-[15:57:33] [Server thread/INFO]: .ZZRoyers left the game
-[15:57:33] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ZZRoyers joined (UUID: 00000000-0000-0000-0009-01f74c13fc16)
-[15:57:33] [Server thread/INFO]: .ZZRoyers joined the game
-[15:57:33] [Server thread/INFO]: .ZZRoyers[/127.107.61.203:0] logged in with entity id 358 at ([world]-42.643387, 121.0, 14.419322)
-[16:00:47] [Server thread/INFO]: .ZZRoyers lost connection: Disconnected
-[16:00:47] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] ZZRoyers has disconnected from the Java server because of Bedrock client disconnected
-[16:00:47] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .ZZRoyers disconnected
-[16:00:47] [Server thread/INFO]: .ZZRoyers left the game
-[16:01:47] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[16:03:48] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username ZZRoyers
-[16:03:48] [localSession-7-4/INFO]: [Geyser-Spigot] ZZRoyers (logged in as: ZZRoyers) has connected to the Java server
-[16:03:48] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ZZRoyers joined (UUID: 00000000-0000-0000-0009-01f74c13fc16)
-[16:03:48] [Server thread/INFO]: .ZZRoyers joined the game
-[16:03:48] [Server thread/INFO]: .ZZRoyers[/127.107.61.203:0] logged in with entity id 476 at ([world]-48.787777, 120.0, 17.564114)
-[16:04:55] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] ZZRoyers has disconnected from the Java server because of Bedrock client disconnected
-[16:04:55] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as .ZZRoyers disconnected
-[16:04:55] [Server thread/INFO]: .ZZRoyers lost connection: Disconnected
-[16:04:55] [Server thread/INFO]: .ZZRoyers left the game
-[16:05:55] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[16:10:37] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username ZZRoyers
-[16:10:37] [localSession-7-1/INFO]: [Geyser-Spigot] ZZRoyers (logged in as: ZZRoyers) has connected to the Java server
-[16:10:38] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ZZRoyers joined (UUID: 00000000-0000-0000-0009-01f74c13fc16)
-[16:10:38] [Server thread/INFO]: .ZZRoyers joined the game
-[16:10:38] [Server thread/INFO]: .ZZRoyers[/127.107.61.203:0] logged in with entity id 596 at ([world]44.117096, 133.0, 7.107518)
-[16:17:45] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] ZZRoyers has disconnected from the Java server because of Bedrock client disconnected
-[16:17:45] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .ZZRoyers disconnected
-[16:17:45] [Server thread/INFO]: .ZZRoyers lost connection: Disconnected
-[16:17:45] [Server thread/INFO]: .ZZRoyers left the game
-[16:17:48] [Server thread/INFO]: Set the time to 0
-[16:18:11] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username ZZRoyers
-[16:18:11] [localSession-7-2/INFO]: [Geyser-Spigot] ZZRoyers (logged in as: ZZRoyers) has connected to the Java server
-[16:18:12] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ZZRoyers joined (UUID: 00000000-0000-0000-0009-01f74c13fc16)
-[16:18:12] [Server thread/INFO]: .ZZRoyers joined the game
-[16:18:12] [Server thread/INFO]: .ZZRoyers[/127.107.61.203:0] logged in with entity id 842 at ([world]43.347725, 134.0, 4.088199)
-[16:28:54] [Server thread/INFO]: .ZZRoyers fell from a high place
-[16:29:39] [Server thread/INFO]: .ZZRoyers issued server command: /skin
-[16:29:53] [Server thread/INFO]: .ZZRoyers issued server command: /skin random
-[16:31:07] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username DylanTag24
-[16:31:07] [localSession-7-3/INFO]: [Geyser-Spigot] DylanTag24 (logged in as: DylanTag24) has connected to the Java server
-[16:31:07] [Server thread/INFO]: [floodgate] Floodgate player logged in as .DylanTag24 joined (UUID: 00000000-0000-0000-0009-01fbd97259ec)
-[16:31:07] [Server thread/INFO]: .DylanTag24 joined the game
-[16:31:07] [Server thread/INFO]: .DylanTag24[/127.54.112.20:0] logged in with entity id 1306 at ([world]8.5, 134.0, 5.5)
-[16:31:39] [Async Chat Thread - #0/INFO]: [Not Secure] <.ZZRoyers> activele los visual vibrants
-[16:31:50] [Server thread/INFO]: .DylanTag24 issued server command: /SKIN RANDOM
-[16:32:05] [Async Chat Thread - #0/INFO]: [Not Secure] <.ZZRoyers> y bajele el brillo a los visual vibrants a un 25%
-[16:32:37] [Async Chat Thread - #0/INFO]: [Not Secure] <.DylanTag24> nah yo tengo unos
-[16:32:58] [Async Chat Thread - #0/INFO]: [Not Secure] <.ZZRoyers> oe
-[16:33:06] [Async Chat Thread - #0/INFO]: [Not Secure] <.ZZRoyers> tonces pere
-[16:33:06] [Async Chat Thread - #0/INFO]: [Not Secure] <.DylanTag24> ??
-[16:33:10] [Async Chat Thread - #0/INFO]: [Not Secure] <.ZZRoyers> pille
-[16:33:13] [Async Chat Thread - #0/INFO]: [Not Secure] <.ZZRoyers> preparado
-[16:33:22] [Async Chat Thread - #0/INFO]: [Not Secure] <.DylanTag24> veo
-[16:33:29] [Server thread/INFO]: Set the time to 0
-[16:33:41] [Async Chat Thread - #0/INFO]: [Not Secure] <.ZZRoyers> que tal
-[16:34:20] [Async Chat Thread - #0/INFO]: [Not Secure] <.ZZRoyers> eo
-[16:34:50] [Async Chat Thread - #0/INFO]: [Not Secure] <.DylanTag24> no me deja
-[16:34:59] [Async Chat Thread - #0/INFO]: [Not Secure] <.DylanTag24> me aparece bloqueado jajaj
-[16:35:21] [Async Chat Thread - #0/INFO]: [Not Secure] <.ZZRoyers> pero si pilla como se de dia con el mod
-[16:35:35] [Async Chat Thread - #0/INFO]: [Not Secure] <.DylanTag24> szs
-[16:36:17] [Async Chat Thread - #0/INFO]: [Not Secure] <.DylanTag24> pere ya vuelvo a entrar
-[16:36:24] [Async Chat Thread - #0/INFO]: [Not Secure] <.ZZRoyers> agale
-[16:36:30] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] DylanTag24 has disconnected from the Java server because of Bedrock client timed out
-[16:36:30] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .DylanTag24 disconnected
-[16:36:30] [Server thread/INFO]: .DylanTag24 lost connection: Disconnected
-[16:36:30] [Server thread/INFO]: .DylanTag24 left the game
-[16:37:23] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username DylanTag24
-[16:37:23] [localSession-7-4/INFO]: [Geyser-Spigot] DylanTag24 (logged in as: DylanTag24) has connected to the Java server
-[16:37:24] [Server thread/INFO]: [floodgate] Floodgate player logged in as .DylanTag24 joined (UUID: 00000000-0000-0000-0009-01fbd97259ec)
-[16:37:24] [Server thread/INFO]: .DylanTag24 joined the game
-[16:37:24] [Server thread/INFO]: .DylanTag24[/127.54.112.20:0] logged in with entity id 1522 at ([world]36.03139, 134.0, 10.691648)
-[16:39:42] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as .DylanTag24 disconnected
-[16:39:42] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] DylanTag24 has disconnected from the Java server because of Bedrock client disconnected
-[16:39:42] [Server thread/INFO]: .DylanTag24 lost connection: Disconnected
-[16:39:42] [Server thread/INFO]: .DylanTag24 left the game
-[16:41:20] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username DylanTag24
-[16:41:20] [localSession-7-1/INFO]: [Geyser-Spigot] DylanTag24 (logged in as: DylanTag24) has connected to the Java server
-[16:41:21] [Server thread/INFO]: [floodgate] Floodgate player logged in as .DylanTag24 joined (UUID: 00000000-0000-0000-0009-01fbd97259ec)
-[16:41:21] [Server thread/INFO]: .DylanTag24 joined the game
-[16:41:21] [Server thread/INFO]: .DylanTag24[/127.54.112.20:0] logged in with entity id 1651 at ([world]36.03139, 134.0, 10.691648)
-[16:41:48] [Async Chat Thread - #2/INFO]: [Not Secure] <.ZZRoyers> ahora no se le ve la skin
-[16:42:09] [Async Chat Thread - #2/INFO]: [Not Secure] <.ZZRoyers> skin ramdom
-[16:42:14] [Server thread/INFO]: .ZZRoyers issued server command: /skin ramdom
-[16:42:27] [Server thread/INFO]: .ZZRoyers issued server command: /skin ramdom
-[16:42:52] [Server thread/INFO]: .ZZRoyers issued server command: /skin soycubo
-[16:42:54] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] DylanTag24 has disconnected from the Java server because of Bedrock client disconnected
-[16:42:54] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .DylanTag24 disconnected
-[16:42:54] [Server thread/INFO]: .DylanTag24 lost connection: Disconnected
-[16:42:54] [Server thread/INFO]: .DylanTag24 left the game
-[16:43:29] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username DylanTag24
-[16:43:29] [localSession-7-2/INFO]: [Geyser-Spigot] DylanTag24 (logged in as: DylanTag24) has connected to the Java server
-[16:43:29] [Server thread/INFO]: [floodgate] Floodgate player logged in as .DylanTag24 joined (UUID: 00000000-0000-0000-0009-01fbd97259ec)
-[16:43:29] [Server thread/INFO]: .DylanTag24 joined the game
-[16:43:29] [Server thread/INFO]: .DylanTag24[/127.54.112.20:0] logged in with entity id 1713 at ([world]36.03139, 134.0, 10.691648)
-[16:44:07] [Async Chat Thread - #4/INFO]: [Not Secure] <.DylanTag24> ya
-[16:44:59] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] ZZRoyers has disconnected from the Java server because of Bedrock client disconnected
-[16:44:59] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .ZZRoyers disconnected
-[16:44:59] [Server thread/INFO]: .ZZRoyers lost connection: Disconnected
-[16:44:59] [Server thread/INFO]: .ZZRoyers left the game
-[16:45:04] [Async Chat Thread - #4/INFO]: [Not Secure] <.DylanTag24> amos a buscar aldea
-[16:45:15] [Server thread/INFO]: No player was found
-[16:45:28] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .DylanTag24 disconnected
-[16:45:28] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] DylanTag24 has disconnected from the Java server because of Bedrock client disconnected
-[16:45:28] [Server thread/INFO]: .DylanTag24 lost connection: Disconnected
-[16:45:28] [Server thread/INFO]: .DylanTag24 left the game
-[16:45:48] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username ZZRoyers
-[16:45:48] [localSession-7-3/INFO]: [Geyser-Spigot] ZZRoyers (logged in as: ZZRoyers) has connected to the Java server
-[16:45:49] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ZZRoyers joined (UUID: 00000000-0000-0000-0009-01f74c13fc16)
-[16:45:49] [Server thread/INFO]: .ZZRoyers joined the game
-[16:45:49] [Server thread/INFO]: .ZZRoyers[/127.107.61.203:0] logged in with entity id 1790 at ([world]64.49242, 129.0, 15.748767)
-[16:46:20] [Server thread/INFO]: Set the time to 0
-[16:56:54] [Server thread/INFO]: .ZZRoyers issued server command: /spark
-[17:02:41] [Server thread/INFO]: .ZZRoyers has made the advancement [Sweet Dreams]
-[17:15:05] [Server thread/INFO]: .ZZRoyers has made the advancement [Stone Age]
-[17:18:40] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] ZZRoyers has disconnected from the Java server because of Bedrock client disconnected
-[17:18:40] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .ZZRoyers disconnected
-[17:18:40] [Server thread/INFO]: .ZZRoyers lost connection: Disconnected
-[17:18:40] [Server thread/INFO]: .ZZRoyers left the game
-[17:19:06] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username ZZRoyers
-[17:19:06] [localSession-7-4/INFO]: [Geyser-Spigot] ZZRoyers (logged in as: ZZRoyers) has connected to the Java server
-[17:19:06] [User Authenticator #0/INFO]: UUID of player ZZRoyers is 4bf3004f-d627-3e2f-8609-50b14636206c
-[17:19:06] [Server thread/INFO]: ZZRoyers joined the game
-[17:19:06] [Server thread/INFO]: ZZRoyers[/127.107.61.203:0] logged in with entity id 3794 at ([world]25.783007799886768, 155.00105977359954, 56.284540113262764)
-[17:19:41] [Server thread/INFO]: No player was found
-[17:20:20] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] ZZRoyers has disconnected from the Java server because of Bedrock client disconnected
-[17:20:20] [Server thread/INFO]: ZZRoyers lost connection: Disconnected
-[17:20:20] [Server thread/INFO]: ZZRoyers left the game
-[17:21:20] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[17:21:31] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username ZZRoyers
-[17:21:31] [localSession-7-1/INFO]: [Geyser-Spigot] ZZRoyers (logged in as: ZZRoyers) has connected to the Java server
-[17:21:31] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ZZRoyers joined (UUID: 00000000-0000-0000-0009-01f74c13fc16)
-[17:21:31] [Server thread/INFO]: .ZZRoyers joined the game
-[17:21:31] [Server thread/INFO]: .ZZRoyers[/127.107.61.203:0] logged in with entity id 3851 at ([world]9.31073, 99.0, -69.29909)
-[17:23:50] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] ZZRoyers has disconnected from the Java server because of Bedrock client disconnected
-[17:23:50] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .ZZRoyers disconnected
-[17:23:50] [Server thread/INFO]: .ZZRoyers lost connection: Disconnected
-[17:23:50] [Server thread/INFO]: .ZZRoyers left the game
-[17:24:34] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username ZZRoyers
-[17:24:34] [localSession-7-2/INFO]: [Geyser-Spigot] ZZRoyers (logged in as: ZZRoyers) has connected to the Java server
-[17:24:34] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ZZRoyers joined (UUID: 00000000-0000-0000-0009-01f74c13fc16)
-[17:24:34] [Server thread/INFO]: .ZZRoyers joined the game
-[17:24:34] [Server thread/INFO]: .ZZRoyers[/127.107.61.203:0] logged in with entity id 4026 at ([world]0.71733046, 96.0, -80.92893)
-[18:23:46] [User Authenticator #1/INFO]: UUID of player ZZRoyers is 4bf3004f-d627-3e2f-8609-50b14636206c
-[18:23:46] [Server thread/INFO]: com.mojang.authlib.GameProfile@6241a689[id=4bf3004f-d627-3e2f-8609-50b14636206c,name=ZZRoyers,properties={}] lost connection: Disconnected
-[18:25:15] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .ZZRoyers disconnected
-[18:25:15] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] ZZRoyers has disconnected from the Java server because of Bedrock client disconnected
-[18:25:15] [Server thread/INFO]: .ZZRoyers lost connection: Disconnected
-[18:25:15] [Server thread/INFO]: .ZZRoyers left the game
-[18:26:15] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[19:05:26] [Server thread/INFO]: Stopping the server
-[19:05:26] [Server thread/INFO]: Stopping server
-[19:05:26] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.7
-[19:05:26] [Server thread/INFO]: [DHS] Disabling DHSupport v0.10.0
-[19:05:26] [Server thread/INFO]: [DHS] Lights out!
-[19:05:26] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.8.2-SNAPSHOT
-[19:05:26] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[19:05:26] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[19:05:26] [Server thread/INFO]: [SmoothTimber] Disabling SmoothTimber v1.27.5
-[19:05:26] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.4.2
-[19:05:26] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[19:05:26] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.4.2
-[19:05:26] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[19:05:26] [Server thread/INFO]: Saving players
-[19:05:26] [WebSocketConnectReadThread-1058/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[19:05:26] [Server thread/INFO]: Saving worlds
-[19:05:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:05:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[19:05:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[19:05:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[19:05:26] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 146 entity chunks, 0 poi chunks in world 'world' in 0.03s
-[19:05:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[19:05:26] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[19:05:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[19:05:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[19:05:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[19:05:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[19:05:26] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[19:05:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[19:05:26] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[19:05:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[19:05:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[19:05:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[19:05:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[19:05:26] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[19:05:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[19:05:26] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[19:05:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:05:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:05:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:05:26] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[19:05:26] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[19:05:26] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[19:05:26] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[19:05:26] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[03:38:58] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:38:58] [ServerMain/WARN]: Missing data pack paper
+[03:39:01] [ServerMain/INFO]: Loaded 1407 recipes
+[03:39:01] [ServerMain/INFO]: Loaded 1520 advancements
+[03:39:01] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[03:39:01] [Server thread/INFO]: Loading properties
+[03:39:01] [Server thread/INFO]: Default game type: SURVIVAL
+[03:39:01] [Server thread/INFO]: Generating keypair
+[03:39:02] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:39:02] [Server thread/INFO]: Using epoll channel type
+[03:39:02] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:39:02] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:39:02] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:39:02] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:39:02] [Server thread/INFO]: Preparing level "world"
+[03:39:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:39:09] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:09] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:09] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:09] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:09] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:09] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:09] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:09] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:09] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:09] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:09] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:09] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:09] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:10] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:10] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:17] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:17] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:18] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:18] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:39:20] [Server thread/INFO]: Time elapsed: 17827 ms
+[03:39:20] [Server thread/INFO]: Done (18.303s)! For help, type "help"
+[03:39:40] [Server thread/INFO]: DylanTag24[/127.5.31.203:57257] logged in with entity id 13 at (139.1738048905833, 63.0, 571.9897486397557)
+[03:39:40] [Server thread/INFO]: DylanTag24 joined the game
+[03:39:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8946ms or 178 ticks behind
+[03:39:52] [Server thread/INFO]: Villager cuf['Villager'/36, l='ServerLevel[world]', x=142.49, y=59.00, z=552.30] died, message: 'Villager suffocated in a wall'
+[03:39:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2351ms or 47 ticks behind
+[03:40:00] [Server thread/INFO]: Villager cuf['Villager'/44, l='ServerLevel[world]', x=141.70, y=59.00, z=552.30] died, message: 'Villager suffocated in a wall'
+[03:40:01] [Server thread/INFO]: Villager cuf['Villager'/49, l='ServerLevel[world]', x=146.30, y=60.00, z=552.70] died, message: 'Villager suffocated in a wall'
+[03:40:01] [Server thread/INFO]: Villager cuf['Villager'/50, l='ServerLevel[world]', x=144.70, y=59.00, z=552.30] died, message: 'Villager suffocated in a wall'
+[03:40:01] [Server thread/INFO]: Villager cuf['Villager'/51, l='ServerLevel[world]', x=145.70, y=59.00, z=552.30] died, message: 'Villager suffocated in a wall'
+[03:40:01] [Server thread/INFO]: Villager cuf['Villager'/52, l='ServerLevel[world]', x=146.70, y=60.00, z=552.70] died, message: 'Villager suffocated in a wall'
+[03:40:01] [Server thread/INFO]: Villager cuf['Villager'/53, l='ServerLevel[world]', x=145.70, y=59.00, z=552.70] died, message: 'Villager suffocated in a wall'
+[03:40:01] [Server thread/INFO]: Villager cuf['Villager'/54, l='ServerLevel[world]', x=145.30, y=59.00, z=552.30] died, message: 'Villager suffocated in a wall'
+[03:40:01] [Server thread/INFO]: Villager cuf['Villager'/55, l='ServerLevel[world]', x=145.70, y=59.00, z=552.70] died, message: 'Villager suffocated in a wall'
+[03:40:01] [Server thread/INFO]: Villager cuf['Villager'/56, l='ServerLevel[world]', x=146.30, y=60.00, z=552.30] died, message: 'Villager suffocated in a wall'
+[03:40:01] [Server thread/INFO]: Villager cuf['Villager'/57, l='ServerLevel[world]', x=144.30, y=59.00, z=552.70] died, message: 'Villager suffocated in a wall'
+[03:40:01] [Server thread/INFO]: Villager cuf['Villager'/58, l='ServerLevel[world]', x=144.30, y=59.00, z=552.30] died, message: 'Villager suffocated in a wall'
+[03:40:01] [Server thread/INFO]: Villager cuf['Villager'/59, l='ServerLevel[world]', x=144.70, y=59.00, z=552.70] died, message: 'Villager suffocated in a wall'
+[03:40:01] [Server thread/INFO]: Villager cuf['Villager'/60, l='ServerLevel[world]', x=144.70, y=59.00, z=552.70] died, message: 'Villager suffocated in a wall'
+[03:40:01] [Server thread/INFO]: Villager cuf['Villager'/61, l='ServerLevel[world]', x=146.70, y=60.00, z=552.70] died, message: 'Villager suffocated in a wall'
+[03:40:02] [Server thread/INFO]: Villager cuf['Villager'/47, l='ServerLevel[world]', x=143.70, y=59.00, z=552.30] died, message: 'Villager suffocated in a wall'
+[03:40:03] [Server thread/INFO]: Villager cuf['Farmer'/34, l='ServerLevel[world]', x=134.50, y=62.00, z=553.56] died, message: 'Farmer suffocated in a wall'
+[03:40:04] [Server thread/INFO]: Villager cuf['Villager'/35, l='ServerLevel[world]', x=139.70, y=59.00, z=552.30] died, message: 'Villager suffocated in a wall'
+[03:40:04] [Server thread/INFO]: Villager cuf['Villager'/37, l='ServerLevel[world]', x=141.70, y=59.00, z=552.70] died, message: 'Villager suffocated in a wall'
+[03:40:04] [Server thread/INFO]: Villager cuf['Villager'/38, l='ServerLevel[world]', x=139.15, y=59.00, z=552.15] died, message: 'Villager suffocated in a wall'
+[03:40:04] [Server thread/INFO]: Villager cuf['Villager'/39, l='ServerLevel[world]', x=142.30, y=59.00, z=552.70] died, message: 'Villager suffocated in a wall'
+[03:40:04] [Server thread/INFO]: Villager cuf['Villager'/40, l='ServerLevel[world]', x=139.30, y=59.00, z=552.70] died, message: 'Villager suffocated in a wall'
+[03:40:04] [Server thread/INFO]: Villager cuf['Villager'/41, l='ServerLevel[world]', x=142.70, y=59.00, z=552.30] died, message: 'Villager suffocated in a wall'
+[03:40:04] [Server thread/INFO]: Villager cuf['Villager'/42, l='ServerLevel[world]', x=141.10, y=59.00, z=552.70] died, message: 'Villager suffocated in a wall'
+[03:40:04] [Server thread/INFO]: Villager cuf['Villager'/43, l='ServerLevel[world]', x=140.30, y=59.00, z=552.70] died, message: 'Villager suffocated in a wall'
+[03:40:04] [Server thread/INFO]: Villager cuf['Villager'/45, l='ServerLevel[world]', x=142.92, y=59.00, z=552.70] died, message: 'Villager suffocated in a wall'
+[03:40:04] [Server thread/INFO]: Villager cuf['Villager'/46, l='ServerLevel[world]', x=143.70, y=59.00, z=552.30] died, message: 'Villager suffocated in a wall'
+[03:40:04] [Server thread/INFO]: Villager cuf['Villager'/48, l='ServerLevel[world]', x=143.70, y=59.00, z=552.30] died, message: 'Villager suffocated in a wall'
+[03:40:40] [Server thread/INFO]: DylanTag24 lost connection: Disconnected
+[03:40:40] [Server thread/INFO]: DylanTag24 left the game
+[03:41:40] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[03:43:32] [Server thread/INFO]: Stopping the server
+[03:43:32] [Server thread/INFO]: Stopping server
+[03:43:32] [Server thread/INFO]: Saving players
+[03:43:32] [Server thread/INFO]: Saving worlds
+[03:43:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:43:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:43:33] [IO-Worker-16/ERROR]: Could not save data to chunks.dat
+java.nio.file.NoSuchFileException: ./world/DIM-1/data/chunks.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at uv.a(SourceFile:72) ~[server-1.21.8.jar:?]
+	at fcm.a(SourceFile:200) ~[server-1.21.8.jar:?]
+	at fcm.b(SourceFile:169) ~[server-1.21.8.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[03:43:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03:43:33] [IO-Worker-14/ERROR]: Could not save data to chunks.dat
+java.nio.file.NoSuchFileException: ./world/DIM1/data/chunks.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at uv.a(SourceFile:72) ~[server-1.21.8.jar:?]
+	at fcm.a(SourceFile:200) ~[server-1.21.8.jar:?]
+	at fcm.b(SourceFile:169) ~[server-1.21.8.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[03:43:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:43:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:43:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:43:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
