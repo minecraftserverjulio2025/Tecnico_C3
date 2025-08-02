@@ -1,153 +1,155 @@
-[00:38:01] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
-[00:38:01] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
-[00:38:01] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[00:38:03] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
-[00:38:03] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+[03:04:14] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[03:04:14] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
+[03:04:14] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[03:04:19] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[03:04:19] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
  - DHSupport (0.10.0), Geyser-Spigot (2.8.2-SNAPSHOT), SkinsRestorer (15.7.8), SmoothTimber (1.27.5), ViaBackwards (5.4.2), ViaVersion (5.4.2), floodgate (2.2.4-SNAPSHOT (b118-40d320a))
-[00:38:11] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[00:38:14] [ServerMain/INFO]: Loaded 1407 recipes
-[00:38:14] [ServerMain/INFO]: Loaded 1520 advancements
-[00:38:14] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[00:38:15] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 942.6ms
-[00:38:15] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[00:38:15] [Server thread/INFO]: Loading properties
-[00:38:15] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[00:38:16] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[00:38:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[00:38:16] [Server thread/INFO]: Using 4 threads for Netty based IO
-[00:38:17] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[00:38:17] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[00:38:18] [Server thread/INFO]: Default game type: SURVIVAL
-[00:38:18] [Server thread/INFO]: Generating keypair
-[00:38:18] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:38:18] [Server thread/INFO]: Using epoll channel type
-[00:38:18] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[00:38:18] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[00:38:19] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.2
-[00:38:19] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.2 is now loaded. Registering protocol transformers and injecting...
-[00:38:20] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[00:38:21] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[00:38:21] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[00:38:21] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[00:38:22] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[00:38:23] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[00:38:23] [Server thread/INFO]: [floodgate] Took 1,081ms to boot Floodgate
-[00:38:23] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.2
-[00:38:23] [Server thread/INFO]: [SmoothTimber] Loading server plugin SmoothTimber v1.27.5
-[00:38:23] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.2-SNAPSHOT
-[00:38:25] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[00:38:25] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[00:38:25] [Server thread/INFO]: [DHS] Loading server plugin DHSupport v0.10.0
-[00:38:25] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.8
-[00:38:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[00:38:25] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.8
-[00:38:26] [Server thread/ERROR]: [SkinsRestorer] Your Minecraft version (1.21.8) is not supported by this version of SkinsRestorer! Is there a newer version available? https://modrinth.com/plugin/skinsrestorer If not, join our Discord server!
-[00:38:26] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.8.
-[00:38:26] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
-[00:38:27] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[00:38:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:38:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:38:27] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:38:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:38:27] [Server thread/INFO]: Preparing level "world"
-[00:38:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[00:38:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[00:38:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[00:38:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[00:38:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[00:38:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[00:38:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[00:38:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.8
-[00:38:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 8c78340
-[00:38:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[00:38:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[00:38:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[00:38:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[00:38:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:38:29] [Server thread/INFO]: Preparing spawn area: 0%
-[00:38:29] [Server thread/INFO]: Preparing spawn area: 0%
-[00:38:29] [Server thread/INFO]: Preparing spawn area: 0%
-[00:38:30] [Server thread/INFO]: Preparing spawn area: 2%
-[00:38:30] [Server thread/INFO]: Preparing spawn area: 2%
-[00:38:31] [Server thread/INFO]: Preparing spawn area: 20%
-[00:38:31] [Server thread/INFO]: Preparing spawn area: 20%
-[00:38:31] [Server thread/INFO]: Time elapsed: 3349 ms
-[00:38:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[00:38:31] [Server thread/INFO]: Preparing spawn area: 0%
-[00:38:32] [Server thread/INFO]: Preparing spawn area: 26%
-[00:38:32] [Server thread/INFO]: Preparing spawn area: 51%
-[00:38:32] [Server thread/INFO]: Time elapsed: 1003 ms
-[00:38:32] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[00:38:32] [Server thread/INFO]: Preparing spawn area: 0%
-[00:38:32] [Server thread/INFO]: Time elapsed: 232 ms
-[00:38:32] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.2
-[00:38:32] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.7-1.21.8 (772)
-[00:38:33] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[00:38:33] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.2
-[00:38:33] [Server thread/INFO]: [SmoothTimber] Enabling SmoothTimber v1.27.5
-[00:38:34] [Server thread/INFO]: SmoothTimber || You're currently using the untested Minecraft Version 1.21.8 (Core v1_21x)
-[00:38:34] [Server thread/INFO]: SmoothTimber || Please note that this core only officially supports 1.21.3, 1.21.4, 1.21.5, so problems may occur.
-[00:38:34] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.2-SNAPSHOT
-[00:38:34] [Server thread/INFO]: [DHS] Enabling DHSupport v0.10.0
-[00:38:34] [Server thread/INFO]: [DHS] I am DHS 0.10.0 for MC 1.21.7.
-[00:38:34] [Server thread/INFO]: [DHS] Using Paper scheduler.
-[00:38:35] [Server thread/WARN]: [DHS] Chunk generation is enabled. New chunks will be generated as needed to complete LOD generation. This could significantly increase the size of your world.
-[00:38:35] [Server thread/WARN]: [DHS] If you understand what this means and would like to disable this warning, set generate_new_chunks_warning to false in your config.
-[00:38:35] [Server thread/INFO]: [DHS] Ready!
-[00:38:36] [Server thread/INFO]: [spark] Starting background profiler...
-[00:38:37] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[00:38:37] [Server thread/INFO]: [Geyser-Spigot] 
-[00:38:37] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.2-b888 (git-master-7a15450)
-[00:38:37] [Server thread/INFO]: [Geyser-Spigot] 
-[00:38:37] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[00:38:47] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 4446
-[00:38:47] [Server thread/INFO]: [Geyser-Spigot] Done (10.161s)! Run /geyser help for help!
-[00:38:47] [Server thread/INFO]: Done preparing level "world" (20.493s)
-[00:38:47] [Server thread/INFO]: Running delayed init tasks
-[00:38:47] [Server thread/INFO]: Done (48.381s)! For help, type "help"
-[00:38:47] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[00:39:00] [Server thread/INFO]: Stopping the server
-[00:39:00] [Server thread/INFO]: Stopping server
-[00:39:00] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.8
-[00:39:00] [Server thread/INFO]: [DHS] Disabling DHSupport v0.10.0
-[00:39:00] [Server thread/INFO]: [DHS] Lights out!
-[00:39:00] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.8.2-SNAPSHOT
-[00:39:00] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[00:39:00] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[00:39:00] [Server thread/INFO]: [SmoothTimber] Disabling SmoothTimber v1.27.5
-[00:39:00] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.4.2
-[00:39:00] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[00:39:00] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.4.2
-[00:39:00] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[00:39:00] [Server thread/INFO]: Saving players
-[00:39:00] [Server thread/INFO]: Saving worlds
-[00:39:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:39:00] [WebSocketConnectReadThread-100/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[00:39:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[00:39:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[00:39:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[00:39:01] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.65s
-[00:39:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[00:39:01] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[00:39:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[00:39:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[00:39:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[00:39:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[00:39:01] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.22s
-[00:39:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[00:39:01] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[00:39:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[00:39:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[00:39:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[00:39:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[00:39:02] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.09s
-[00:39:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[00:39:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[00:39:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:39:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:39:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:39:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[00:39:02] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[00:39:02] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[00:39:02] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[00:39:02] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[03:04:27] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:04:31] [ServerMain/INFO]: Loaded 1407 recipes
+[03:04:31] [ServerMain/INFO]: Loaded 1520 advancements
+[03:04:31] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[03:04:32] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 620.5ms
+[03:04:32] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[03:04:32] [Server thread/INFO]: Loading properties
+[03:04:32] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[03:04:33] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[03:04:33] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:04:33] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:04:35] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[03:04:35] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[03:04:36] [Server thread/INFO]: Default game type: SURVIVAL
+[03:04:36] [Server thread/INFO]: Generating keypair
+[03:04:36] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:04:36] [Server thread/INFO]: Using epoll channel type
+[03:04:36] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[03:04:36] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[03:04:37] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.2
+[03:04:37] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.2 is now loaded. Registering protocol transformers and injecting...
+[03:04:38] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[03:04:38] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[03:04:39] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[03:04:39] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[03:04:40] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[03:04:41] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[03:04:41] [Server thread/INFO]: [floodgate] Took 1,313ms to boot Floodgate
+[03:04:41] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.2
+[03:04:41] [Server thread/INFO]: [SmoothTimber] Loading server plugin SmoothTimber v1.27.5
+[03:04:41] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.2-SNAPSHOT
+[03:04:42] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[03:04:42] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[03:04:42] [Server thread/INFO]: [DHS] Loading server plugin DHSupport v0.10.0
+[03:04:42] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.8
+[03:04:43] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:04:43] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.8
+[03:04:44] [Server thread/ERROR]: [SkinsRestorer] Your Minecraft version (1.21.8) is not supported by this version of SkinsRestorer! Is there a newer version available? https://modrinth.com/plugin/skinsrestorer If not, join our Discord server!
+[03:04:44] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.8.
+[03:04:44] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[03:04:45] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[03:04:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:04:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:04:45] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:04:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:04:45] [Server thread/INFO]: Preparing level "world"
+[03:04:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[03:04:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[03:04:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[03:04:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[03:04:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[03:04:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[03:04:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[03:04:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.8
+[03:04:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 8c78340
+[03:04:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[03:04:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[03:04:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[03:04:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[03:04:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:04:47] [Server thread/INFO]: Preparing spawn area: 0%
+[03:04:47] [Server thread/INFO]: Preparing spawn area: 0%
+[03:04:47] [Server thread/INFO]: Preparing spawn area: 0%
+[03:04:47] [Server thread/INFO]: Preparing spawn area: 2%
+[03:04:49] [Server thread/INFO]: Preparing spawn area: 20%
+[03:04:49] [Server thread/INFO]: Preparing spawn area: 20%
+[03:04:49] [Server thread/INFO]: Time elapsed: 2912 ms
+[03:04:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[03:04:49] [Server thread/INFO]: Preparing spawn area: 0%
+[03:04:50] [Server thread/INFO]: Preparing spawn area: 8%
+[03:04:50] [Server thread/INFO]: Preparing spawn area: 12%
+[03:04:50] [Server thread/INFO]: Preparing spawn area: 20%
+[03:04:51] [Server thread/INFO]: Preparing spawn area: 42%
+[03:04:51] [Server thread/INFO]: Time elapsed: 2438 ms
+[03:04:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[03:04:51] [Server thread/INFO]: Preparing spawn area: 0%
+[03:04:52] [Server thread/INFO]: Time elapsed: 327 ms
+[03:04:52] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.2
+[03:04:52] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.7-1.21.8 (772)
+[03:04:52] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[03:04:53] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.2
+[03:04:53] [Server thread/INFO]: [SmoothTimber] Enabling SmoothTimber v1.27.5
+[03:04:53] [Server thread/INFO]: SmoothTimber || You're currently using the untested Minecraft Version 1.21.8 (Core v1_21x)
+[03:04:53] [Server thread/INFO]: SmoothTimber || Please note that this core only officially supports 1.21.3, 1.21.4, 1.21.5, so problems may occur.
+[03:04:53] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.2-SNAPSHOT
+[03:04:53] [Server thread/INFO]: [DHS] Enabling DHSupport v0.10.0
+[03:04:53] [Server thread/INFO]: [DHS] I am DHS 0.10.0 for MC 1.21.7.
+[03:04:53] [Server thread/INFO]: [DHS] Using Paper scheduler.
+[03:04:54] [Server thread/WARN]: [DHS] Chunk generation is enabled. New chunks will be generated as needed to complete LOD generation. This could significantly increase the size of your world.
+[03:04:54] [Server thread/WARN]: [DHS] If you understand what this means and would like to disable this warning, set generate_new_chunks_warning to false in your config.
+[03:04:54] [Server thread/INFO]: [DHS] Ready!
+[03:04:54] [Server thread/INFO]: [spark] Starting background profiler...
+[03:04:56] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[03:04:56] [Server thread/INFO]: [Geyser-Spigot] 
+[03:04:56] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.2-b888 (git-master-7a15450)
+[03:04:56] [Server thread/INFO]: [Geyser-Spigot] 
+[03:04:56] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[03:05:06] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 4446
+[03:05:06] [Server thread/INFO]: [Geyser-Spigot] Done (9.548s)! Run /geyser help for help!
+[03:05:06] [Server thread/INFO]: Done preparing level "world" (21.466s)
+[03:05:06] [Server thread/INFO]: Running delayed init tasks
+[03:05:06] [Server thread/INFO]: Done (55.020s)! For help, type "help"
+[03:05:06] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[03:06:06] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[03:06:49] [Server thread/INFO]: Stopping the server
+[03:06:49] [Server thread/INFO]: Stopping server
+[03:06:49] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.8
+[03:06:49] [Server thread/INFO]: [DHS] Disabling DHSupport v0.10.0
+[03:06:49] [Server thread/INFO]: [DHS] Lights out!
+[03:06:49] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.8.2-SNAPSHOT
+[03:06:49] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[03:06:49] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[03:06:49] [Server thread/INFO]: [SmoothTimber] Disabling SmoothTimber v1.27.5
+[03:06:49] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.4.2
+[03:06:49] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[03:06:49] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.4.2
+[03:06:49] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[03:06:49] [Server thread/INFO]: Saving players
+[03:06:49] [WebSocketConnectReadThread-100/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[03:06:49] [Server thread/INFO]: Saving worlds
+[03:06:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:06:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[03:06:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[03:06:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[03:06:49] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 4 entity chunks, 0 poi chunks in world 'world' in 0.01s
+[03:06:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[03:06:49] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[03:06:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[03:06:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[03:06:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[03:06:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[03:06:49] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 30 entity chunks, 0 poi chunks in world 'world_nether' in 0.04s
+[03:06:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[03:06:49] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[03:06:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[03:06:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[03:06:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[03:06:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[03:06:49] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.04s
+[03:06:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[03:06:49] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[03:06:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:06:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:06:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:06:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:06:49] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[03:06:49] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[03:06:49] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[03:06:49] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
